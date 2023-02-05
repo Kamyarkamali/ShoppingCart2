@@ -1,0 +1,168 @@
+.cantainer{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9f9f9;
+}
+
+.formcontainer{
+    border: 1px solid silver;
+    padding: 5px;
+    margin: 50px;
+    width: fit-content;
+    border-radius: 10px;
+    height: fit-content;
+    background-color:#ffff;
+}
+
+.header{
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 1.8rem;
+    color:#1a73e8 ;
+}
+
+.formfild{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    height: 75px;
+}
+
+.formfild label{
+    text-align: left;
+    margin-bottom: 5px;
+    font-size: 0.9rem;
+    color: rgb(85, 85, 85);
+}
+
+.formfild input{
+    width: 300px;
+    height: 30px;
+    padding: 0 10px;
+    border-radius: 5px;
+    border: 1px solid silver;
+    transition: all 0.3s ease-in;
+    outline: none;
+}
+
+.uncompailed{
+    width: 300px;
+    height: 30px;
+    padding: 0 10px;
+    border-radius: 5px;
+    border: 1px solid red;
+    transition: all 0.3s ease-in;
+}
+
+.formfild input:focus{
+    border: 1px solid #1a73e8;
+    height: 30px;
+    outline: none;
+    line-height: 30px;
+}
+
+.uncompailed:focus{
+    border: 1px solid #1a73e8;
+    height: 30px;
+    outline: none;
+    line-height: 30px;
+}
+
+.formfild span{
+    height: 10px;
+    text-align: left;
+    margin-top: 5px;
+    width: fit-content;
+    color: red;
+    padding: 2px 3px;
+    background-color: rgba(255, 0, 0, 0.175);
+    line-height: 10px;
+    border-radius: 3px;
+}
+
+.checkbox{
+    display: flex;
+    align-items: center;
+    width: 30px;
+    height: 10px;
+    line-height: 10px;
+    text-align: center;
+    flex-direction: row !important;
+    font-size: 0.8rem;
+}
+
+input[type="checkbox"]{
+    margin-left: 20px;
+    width: 18px;
+    height: 18px;
+    /* appearance: none; */
+    border: 1px solid #1a73e8;
+}
+
+.formbottons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.formbottons button{
+    border: none;
+    background-color: #1a73e8;
+    color: #fff;
+    padding: 8px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.4s ease-in;
+}
+
+.formbottons button:hover{
+    background-color:#14509f ;
+}
+
+.formbottons a{
+    color: #1a73e8;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    transition: all 0.4s ease-in;
+}
+
+.formbottons a:hover{
+    font-size: 19px;
+}
+
+
+@media (min-width:320px) and (max-width:480px){
+    .cantainer{
+        margin-left: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: -5px;
+    }
+    .formcontainer{
+        padding: 5px;
+        margin: 10px;
+    }
+    .formfild input{
+        width: 250px;
+    }
+    .header{
+        text-align: left;
+        font-size: 21px;
+    }
+}
+
+@media (min-width:480px) and (max-width:768px){
+    .formcontainer{
+        margin: 10px;
+    }
+    
+}
+
+@media (min-width:769px) and (max-width:1024px){
+
+}

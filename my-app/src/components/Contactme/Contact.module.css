@@ -1,0 +1,21 @@
+.container{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    flex-direction: column;
+    background-color: salmon;
+    margin-left: 300px;
+    border-radius: 30px;
+}
+
+.div{
+    border: 1px solid silver;
+    display: flex;
+    width: 100%;
+    margin: 6px;
+    justify-content: center;
+    align-items: center;
+}
+

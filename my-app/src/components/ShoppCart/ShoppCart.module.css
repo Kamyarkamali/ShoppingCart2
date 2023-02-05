@@ -1,0 +1,126 @@
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    margin: 10px;
+}
+
+.items{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 16px;
+    flex-direction: column;
+    border: 1px solid;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.items p{
+    font-size: 18px;
+}
+
+.items span{
+    font-size: 17px;
+    color: rgb(77, 61, 61);
+    margin: 10px;
+    background-color: blue;
+    color: #ffff;
+    font-weight: bold;
+    font-size: 19px;
+    margin-bottom: 15px;
+    margin-top: 2px;
+    padding: 4px;
+    border-radius: 10px;
+}
+
+.btn{
+    display: flex;
+    gap: 20px;
+}
+
+.btn button{
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.checkout{
+    background-color: rgb(66, 196, 66);
+    color: #fff;
+    padding: 8px;
+    border-radius: 10px;
+    margin-left: 8px;
+    transition: all 0.4s ease-in;
+}
+
+.checkout:hover{
+    background-color: green;
+    font-size: 18px;
+}
+
+.cleare{
+    background-color: rgb(219, 59, 59);
+    color: #fff;
+    padding: 8px;
+    border-radius: 10px;
+    margin-left: 8px;
+    transition: all 0.4s ease-in;
+}
+
+.cleare:hover{
+    font-size: 18px;
+    background-color: red;
+}
+
+.final{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-top: 1px solid;
+    width: 100%;
+}
+
+.final h3{
+    color: #696969;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.final a{
+    text-decoration: none;
+    background-color: rgb(50, 50, 219);
+    color: #fff;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 10px;
+    transition: all 0.3s ease-in;
+}
+
+.final a:hover{
+    background-color: blue;
+}
+
+.sucss{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sucss h3{
+    background-color: green;
+    padding: 5px;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.sucss a{
+    text-decoration: none;
+    color: gray;
+    font-size: 17px;
+    border-bottom: 1px solid ;
+}
